@@ -1,31 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bce499e3-4ab0-45cf-8326-b7d49f406df2" name="Default Changelist" comment="" />
+    <list default="true" id="99c1273d-0e79-4521-a538-212d9918e127" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-        <option value="CSS File" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectId" id="1Rb9fsJMVNMP74hy2W3dJwRyMLI" />
+  <component name="ProjectId" id="1ReIvhIhC9vElyzDP0f7VPs160N" />
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../group7" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\WebstormProject\group7\img" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\2102_constructive\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -45,12 +41,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bce499e3-4ab0-45cf-8326-b7d49f406df2" name="Default Changelist" comment="" />
-      <created>1569925034500</created>
+      <changelist id="99c1273d-0e79-4521-a538-212d9918e127" name="Default Changelist" comment="" />
+      <created>1570021369956</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1569925034500</updated>
-      <workItem from="1569925035825" duration="13745000" />
+      <updated>1570021369956</updated>
+      <workItem from="1570021381049" duration="5881000" />
     </task>
     <servers />
   </component>
