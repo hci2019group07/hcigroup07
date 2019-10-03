@@ -36,7 +36,7 @@ a {	color: #FFF;  }
 
 a:hover { color: #FF0; }
 
-h1,h2,h3 { font-weight: 300; }
+h1,h2,h3 { font-weight: bold; }
 
 p {
     font-size: 1rem;
@@ -864,5 +864,59 @@ footer a { color: white; }
 }
 
 
+#section-heading ul {
+    padding: 0px;
+    margin: 0px;
+    overflow: auto;
+}
 
+#section-heading ul li {
+    width: 190px;
+    list-style: none;
+    float: left;
+    padding: 20px;
+    font-size: 23px;
+    text-align: center;
+    font-size: 23px;
+    text-shadow: 0px 2px 1px rgb(0, 0, 0);
+}
 
+#section-heading ul li a {
+    color: #19968a;
+    text-align: center;
+    font-weight: bold;
+}
+#section-heading ul li:hover{
+    color: white;
+    cursor: pointer;
+    background: darkred;
+}
+#section-heading ul li:hover a{
+    color: white;
+}
+#section-heading .tab-content {
+    width: 100%;
+    float: left;
+}
+#section-heading .tab-content .tab-pane {
+    margin-left: 25px;
+}
+#section-heading .tab-content .tab-pane .content{
+    font-size: 20px;
+    padding-right: 50px;
+}
+
+thead{
+    background: white;
+    border: 1px black solid;
+    color: black;
+    text-align: center;
+    width: 600px;
+}
+tbody{
+    background: white;
+    border: 1px black solid;
+    color: black;
+    text-align: justify;
+    width: 600px;
+}
