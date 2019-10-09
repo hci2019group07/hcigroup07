@@ -25,7 +25,7 @@ body {
 
 ul { margin: 0; padding: 0; }
 
-a, button { transition: all 0.3s ease; }
+a, button { transition: all 0.5s ease; }
 button:focus { outline: none; }
 a:focus {
 	text-decoration: none;
@@ -590,7 +590,7 @@ footer a { color: white; }
 #content #content1 {
     /*width: 400px;*/
     height: 300px;
-    margin: auto;
+
 
 
 
@@ -602,7 +602,7 @@ footer a { color: white; }
     border: 1px solid #6d6161;
     background: #dcd4d4;
     margin-top: 20px;
-    margin-left: 100px;
+
     color: black;
     font-weight: bold;
 }
@@ -649,7 +649,7 @@ footer a { color: white; }
 #content #content2 {
     /*width: 400px;*/
     height: 300px;
-    margin: auto;
+
 
 }
 #content2 .cont2 {
@@ -659,7 +659,7 @@ footer a { color: white; }
     border: 1px solid #6d6161;
     background: #dcd4d4;
     margin-top: 20px;
-    margin-left: 100px;
+
     color: black;
     font-weight: bold;
 }
@@ -703,7 +703,7 @@ footer a { color: white; }
 #content #content3 {
     /*width: 400px;*/
     height: 300px;
-    margin: auto;
+
 }
 #content3 .cont3 {
     width: 400px;
@@ -712,7 +712,7 @@ footer a { color: white; }
     border: 1px solid #6d6161;
     background: #dcd4d4;
     margin-top: 20px;
-    margin-left: 100px;
+
     color: black;
     font-weight: bold;
 }
@@ -757,7 +757,7 @@ footer a { color: white; }
 #content #content4 {
     /*width: 400px;*/
     height: 300px;
-    margin: auto;
+
 
 }
 #content4 .cont4{
@@ -767,7 +767,7 @@ footer a { color: white; }
     border: 1px solid #6d6161;
     background: #dcd4d4;
     margin-top: 20px;
-    margin-left: 100px;
+
     color: black;
     font-weight: bold;
 }
@@ -812,7 +812,7 @@ footer a { color: white; }
 #content #content5 {
     /*width: 400px;*/
     height: 300px;
-    margin: auto;
+
 
 }
 #content5 .cont5{
@@ -822,7 +822,7 @@ footer a { color: white; }
     border: 1px solid #6d6161;
     background: #dcd4d4;
     margin-top: 20px;
-    margin-left: 100px;
+
     color: black;
     font-weight: bold;
 }
