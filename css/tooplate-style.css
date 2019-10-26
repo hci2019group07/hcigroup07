@@ -587,12 +587,12 @@ footer a { color: white; }
     color:  #1b2426;
     padding-top: 10px;
 }
-#content #content1 {
+#content #content4 {
     /*width: 400px;*/
     height: 350px;
 
 }
-#content1 .cont1 {
+#content4 .cont4 {
     width: 400px;
     height: 300px;
     /*float: left;*/
@@ -601,42 +601,42 @@ footer a { color: white; }
     margin-top: 20px;
 
     color: black;
-    font-weight: bold;
+    font-weight: 500;
 }
-#content1  .name{
+#content4  .name{
     width: 400px;
     height: 70px;
     text-align: center;
     border-bottom: 1px solid #b19f9f;
     color: black;
 }
-#content1  .name .n{
+#content4  .name .n{
     padding-top: 8px;
     font-weight: bold;
     font-size: 18px;
 }
-#content1  .name .nt{
+#content4  .name .nt{
     padding-top: 5px;
 
 }
-#content1  .info{
+#content4  .info{
     margin-top: 10px;
 }
-#content1  .info .inf{
+#content4  .info .inf{
     text-align: center;
 }
-#content1 .social {
-    width: 170px;
+#content4 .social {
+    width: 400px;
     height: 50px;
-    margin-left: 111px;
+    margin-left: 105px;
     margin-top: 30px;
 }
-#content1 .social .bt {
-    float: left;
+#content4 .social .bt {
+
     border-style: none;
     margin-left: 15px;
 }
-#content1 .img1 {
+#content4 .img4 {
     /*float: right;*/
     margin-right: 70px;
     margin-top: -300px;
@@ -659,7 +659,7 @@ footer a { color: white; }
     margin-top: 20px;
 
     color: black;
-    font-weight: bold;
+    font-weight: 500;
 }
 #content2  .name{
     width: 400px;
@@ -681,13 +681,13 @@ footer a { color: white; }
     text-align: center;
 }
 #content2 .social {
-    width: 170px;
+    width: 400px;
     height: 50px;
-    margin-left: 111px;
+    margin-left: 105px;
     margin-top: 30px;
 }
 #content2 .social .bt {
-    float: left;
+
     border-style: none;
     margin-left: 15px;
 }
@@ -713,7 +713,7 @@ footer a { color: white; }
     margin-top: 20px;
 
     color: black;
-    font-weight: bold;
+    font-weight:300;
 }
 #content3  .name{
     width: 400px;
@@ -735,13 +735,13 @@ footer a { color: white; }
     text-align: center;
 }
 #content3 .social {
-    width: 170px;
+    width: 400px;
     height: 50px;
-    margin-left: 111px;
+    margin-left: 105px;
     margin-top: 30px;
 }
 #content3 .social .bt {
-    float: left;
+
     border-style: none;
     margin-left: 15px;
 }
@@ -754,13 +754,13 @@ footer a { color: white; }
 }
 
 
-#content #content4 {
+#content #content1 {
     /*width: 400px;*/
     height: 350px;
 
 
 }
-#content4 .cont4{
+#content1 .cont1 {
     width: 400px;
     height: 300px;
     /*float: left;*/
@@ -769,39 +769,39 @@ footer a { color: white; }
     margin-top: 20px;
 
     color: black;
-    font-weight: bold;
+    font-weight: 500;
 }
-#content4  .name{
+#content1  .name{
     width: 400px;
     height: 50px;
     text-align: center;
     border-bottom: 1px solid #b19f9f;
     color: black;
 }
-#content4  .name .n{
+#content1  .name .n{
     padding-top: 8px;
     font-weight: bold;
     font-size: 18px;
 }
 
-#content4  .info{
+#content1  .info{
     margin-top: 30px;
 }
-#content4  .info .inf{
+#content1  .info .inf{
     text-align: center;
 }
-#content4 .social {
-    width: 170px;
+#content1 .social {
+    width: 400px;
     height: 50px;
-    margin-left: 111px;
+    margin-left: 105px;
     margin-top: 30px;
 }
-#content4 .social .bt {
-    float: left;
+#content1 .social .bt {
+
     border-style: none;
     margin-left: 15px;
 }
-#content4 .img4 {
+#content1 .img1 {
     /*float: right;*/
     margin-right: 70px;
     margin-top: -300px;
@@ -825,7 +825,7 @@ footer a { color: white; }
     margin-top: 20px;
 
     color: black;
-    font-weight: bold;
+    font-weight: 500;
 }
 #content5  .name{
     width: 400px;
@@ -847,13 +847,13 @@ footer a { color: white; }
     text-align: center;
 }
 #content5 .social {
-    width: 170px;
+    width: 400px;
     height: 50px;
-    margin-left: 111px;
+    margin-left: 105px;
     margin-top: 30px;
 }
 #content5 .social .bt {
-    float: left;
+
     border-style: none;
     margin-left: 15px;
 }
@@ -921,4 +921,87 @@ tbody{
     color: black;
     text-align: justify;
     width: 600px;
+}
+.navbar-fixed-top {
+    top: 50px;
+    transition: top 800ms ease 0s;
+    position: fixed;
+    z-index: 9999;
+}
+.show {
+    top: 0px;
+}
+a:hover,a:focus{
+    text-decoration: none;
+    outline: none;
+}
+.tab .nav-tabs{
+    border: none;
+    border-bottom: 2px solid #079fc9;
+    margin: 0;
+    height: 50px;
+}
+.tab .nav-tabs li a{
+    padding: 10px 20px;
+    margin: 0 10px -1px 0;
+    font-size: 17px;
+    font-weight: 600;
+    color: #293241;
+    text-transform: uppercase;
+    border: 2px solid #e6e5e1;
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+    z-index: 1;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+.tab .nav-tabs li a:hover,
+.tab .nav-tabs li.active a{
+    background: #fff;
+    color: #079fc9;
+    border: 2px solid #079fc9;
+    border-bottom-color: transparent;
+}
+.tab .nav-tabs li a:before{
+    content: "";
+    display: block;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    right: 0;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out 0s;
+}
+.tab .nav-tabs li.active a:before,
+.tab .nav-tabs li a:hover:before{ transform: scaleX(1); }
+.tab .tab-content{
+    padding: 10px;
+    font-size: 17px;
+    color: #6f6f6f;
+    line-height: 30px;
+    letter-spacing: 1px;
+    position: relative;
+}
+@media only screen and (max-width: 479px){
+    .tab .nav-tabs{ border: none; }
+    .tab .nav-tabs li{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .tab .nav-tabs li a{
+        margin: 0;
+        border-bottom: 2px solid transparent;
+    }
+    .tab .nav-tabs li a:before{
+        content: "";
+        width: 100%;
+        height: 2px;
+        background: #079fc9;
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+    }
 }
