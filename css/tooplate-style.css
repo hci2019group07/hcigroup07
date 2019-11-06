@@ -147,7 +147,7 @@ p:last-child { margin-bottom: 0; }
     margin-right: 35px;
 }
 
-.tm-main-nav { font-size: 1.6rem; }
+.tm-main-nav { font-size: 1.4rem; }
 .tm-main-nav li { list-style: none; }
 .tm-main-nav a {
     background-image: url(../img/nav-item.png);
@@ -288,7 +288,7 @@ address { font-size: 1rem; }
 
 footer a { color: white; }
 
-@media (max-width: 1800px) {
+@media (max-width: 2000px) {
   .tm-section { margin-right: auto; }
 }
 
@@ -305,7 +305,7 @@ footer a { color: white; }
 
 @media (max-width: 1400px) {
 
-    .tm-main-nav { font-size: 1.4rem; }
+    .tm-main-nav { font-size: 1.2rem; }
     .tm-main-nav a { padding-right: 10px; }
     .tm-nav-fa-icon { margin-right: 25px; }
 
@@ -946,7 +946,7 @@ a:hover,a:focus{
     margin: 0 10px -1px 0;
     font-size: 17px;
     font-weight: 600;
-    color: #293241;
+    color: #f7f7f9;
     text-transform: uppercase;
     border: 2px solid #e6e5e1;
     border-bottom: none;
@@ -977,11 +977,11 @@ a:hover,a:focus{
 .tab .nav-tabs li.active a:before,
 .tab .nav-tabs li a:hover:before{ transform: scaleX(1); }
 .tab .tab-content{
-    padding: 10px;
-    font-size: 17px;
+
+    font-size: 14px;
     color: #6f6f6f;
-    line-height: 30px;
-    letter-spacing: 1px;
+    /*line-height: 30px;*/
+    /*letter-spacing: 1px;*/
     position: relative;
 }
 @media only screen and (max-width: 479px){
