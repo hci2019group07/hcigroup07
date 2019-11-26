@@ -21,6 +21,8 @@ http://www.tooplate.com/view/2102-constructive
 	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 	<link rel="stylesheet" href="css/tooplate-style.css">
 
+	<script src="https://kit.fontawesome.com/c25baca2b9.js" crossorigin="anonymous"></script>
+
 	<script>
 		var renderPage = true;
 
@@ -53,7 +55,7 @@ http://www.tooplate.com/view/2102-constructive
 			<!-- Sidebar -->
 			<div id="tmSideBar" class="col-xl-3 col-lg-4 col-md-12 col-sm-12 sidebar">
 
-				<button id="tmMainNavToggle" class="menu-icon">&#9776;</button>
+				<button id="tmMainNavToggle" class="menu-icon" >&#9776;</button>
 				<div class="navbar-fixed-top">
 				<div class="inner">
 					<nav id="tmMainNav" class="tm-main-nav">
@@ -66,17 +68,31 @@ http://www.tooplate.com/view/2102-constructive
 							</li>
 
 							<li>
+								<a href="tech.html" class="scrolly" data-bg-img="constructive_bg_03.jpg" data-page="#tm-section-3">
+									<i class="fas fa-map tm-nav-fa-icon"></i>
+									<span>Technology</span>
+								</a>
+							</li>
+							<li>
 								<a href="project.html" class="scrolly" data-bg-img="constructive_bg_03.jpg" >
-									<i class="fas fa-users tm-nav-fa-icon"></i>
+									<i class="fas fa-map tm-nav-fa-icon"></i>
 									<span>Project</span>
 								</a>
 							</li>
 							<li>
 								<a href="group_diary.html"  >
-									<i class="fas fa-map tm-nav-fa-icon"></i>
+
+									<i class="fas fa-users tm-nav-fa-icon"></i>
 									<span>Group Diary</span>
 								</a>
-							</li>							
+							</li>
+
+							<li>
+								<a href="tech.html" class="scrolly" data-bg-img="constructive_bg_03.jpg" data-page="#tm-section-3">
+									<i class="fas fa-map tm-nav-fa-icon"></i>
+									<span>Result</span>
+								</a>
+							</li>
 
 							<li>
 								<a href="about.html" class="scrolly" data-bg-img="constructive_bg_04.jpg" >
@@ -84,6 +100,14 @@ http://www.tooplate.com/view/2102-constructive
 									<span>About</span>
 								</a>
 							</li>
+							<li>
+								<a href="style_guide.html" class="scrolly" data-bg-img="constructive_bg_04.jpg" data-page="#tm-section-4">
+									<i class="fas fa-comments tm-nav-fa-icon"></i>
+									<span>Style Guide</span>
+
+								</a>
+							</li>
+
 						</ul>
 					</nav>
 				</div>
@@ -97,7 +121,7 @@ http://www.tooplate.com/view/2102-constructive
 						<div class="ml-auto">
 							<header class="mb-4"><h1 class="tm-text-shadow">GROUP_07</h1></header>
 							<p class="mb-5 tm-font-big">Hello everyone, this is our website for a project of "Human – Computer Interaction" subject.</p>
-							<a href="#" class="btn tm-btn tm-font-big" data-nav-link="#tmNavLink2">Continue...</a> 
+							<a href="tech.html" class="btn tm-btn tm-font-big" data-nav-link="#tmNavLink2">Continue...</a>
 							<!-- data-nav-link holds the ID of nav item, which means this link should behave the same as that nav item  -->
 						</div>
 					</section>
@@ -121,6 +145,7 @@ http://www.tooplate.com/view/2102-constructive
 		<div id="preload-02"></div>
 		<div id="preload-03"></div>
 		<div id="preload-04"></div>
+
 
 		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 		<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
@@ -184,45 +209,45 @@ http://www.tooplate.com/view/2102-constructive
   		}
 
   		// // Setup Nav
-  		// function setupNav() {
-  		// 	// Add Event Listener to each Nav item
+  		function setupNav() {
+  			// // Add Event Listener to each Nav item
 	     	// $(".tm-main-nav a").click(function(e){
 	     	// 	e.preventDefault();
-		  //
-		  //   	var currentNavItem = $(this);
-		  //   	changePage(currentNavItem);
-		  //
-		  //   	setupCarousel();
-		  //   	setupFooter();
-		  //
-		  //   	// Hide the nav on mobile
-		  //   	$("#tmSideBar").removeClass("show");
-		  //   });
-  		// }
-		  //
-  		// function changePage(currentNavItem) {
-  		// 	// Update Nav items
-  		// 	$(".tm-main-nav a").removeClass("active");
-     		// currentNavItem.addClass("active");
-		  //
-	    	// $(currentPageID).hide();
-		  //
-	    	// // Show current page
-	    	// currentPageID = currentNavItem.data("page");
-	    	// $(currentPageID).fadeIn(1000);
-		  //
-	    	// // Change background image
-	    	// var bgImg = currentNavItem.data("bgImg");
-	    	// $.backstretch("img/" + bgImg);
-  		// }
-		  //
+			//
+		    // 	var currentNavItem = $(this);
+		    // 	changePage(currentNavItem);
+			//
+		    // 	setupCarousel();
+		    // 	setupFooter();
+			//
+		    // 	// Hide the nav on mobile
+		    // 	$("#tmSideBar").removeClass("show");
+		    // });
+  		}
+
+  		function changePage(currentNavItem) {
+  			// Update Nav items
+  			$(".tm-main-nav a").removeClass("active");
+     		currentNavItem.addClass("active");
+
+	    	$(currentPageID).hide();
+
+	    	// Show current page
+	    	currentPageID = currentNavItem.data("page");
+	    	$(currentPageID).fadeIn(1000);
+
+	    	// Change background image
+	    	var bgImg = currentNavItem.data("bgImg");
+	    	$.backstretch("img/" + bgImg);
+  		}
+
   		// // Setup Nav Toggle Button
-  		// function setupNavToggle() {
-		  //
-			// $("#tmMainNavToggle").on("click", function(){
-			// 	$(".sidebar").toggleClass("show");
-			// });
-  		// }
+  		function setupNavToggle() {
+
+			$("#tmMainNavToggle").on("click", function(){
+				$(".sidebar").toggleClass("show");
+			});
+  		}
 
   		// If there is enough room, stick the footer at the bottom of page content.
   		// If not, place it after the page content
@@ -272,7 +297,7 @@ http://www.tooplate.com/view/2102-constructive
 			    }
 		      	
 		      	// Hide all pages
-		      	allPages.hide();
+		      	// allPages.hide();
 
 		      	$("#tm-section-1").fadeIn();
 
@@ -310,6 +335,40 @@ http://www.tooplate.com/view/2102-constructive
 			}
 		});
 
+
+
 		</script>
 	</body>
 </html>
+<div class="accordion" id="accordionEx">
+	<div class="card">
+		<div class="card-header" id="one">
+			<h2 class="mb-0">
+				<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse_1" aria-expanded="true" aria-controls="collapse_1">
+					#1 Front end
+				</button>
+			</h2>
+		</div>
+
+		<div id="collapse_1" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+			<div class="card-body">
+				Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+			</div>
+		</div>
+	</div>
+	<div class="card">
+		<div class="card-header" id="two">
+			<h2 class="mb-0">
+				<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse_2" aria-expanded="false" aria-controls="collapse_2">
+					#2 Back end
+				</button>
+			</h2>
+		</div>
+		<div id="collapse_2" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+			<div class="card-body">
+				Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+			</div>
+		</div>
+	</div>
+
+</div>

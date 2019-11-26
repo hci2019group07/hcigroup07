@@ -22,7 +22,17 @@
     <link rel="stylesheet" href="css/tooplate-style.css">
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/c25baca2b9.js" crossorigin="anonymous"></script>
+
+
+
     <script>
+
         var renderPage = true;
 
         if(navigator.userAgent.indexOf('MSIE')!==-1
@@ -65,16 +75,32 @@
                                     <span>Home</span>
                                 </a>
                             </li>
+
+                            <li>
+                                <a href="tech.html" class="scrolly" data-bg-img="constructive_bg_03.jpg" data-page="#tm-section-3">
+                                    <i class="fas fa-map tm-nav-fa-icon"></i>
+                                    <span>Technology</span>
+                                </a>
+                            </li>
+
                             <li>
                                 <a href="project.html" class="scrolly active" data-bg-img="constructive_bg_03.jpg" data-page="#tm-section-3">
-                                    <i class="fas fa-users tm-nav-fa-icon"></i>
+                                    <i class="fas fa-map tm-nav-fa-icon"></i>
                                     <span>Project</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="group_diary.html" id="tmNavLink2" class="scrolly" data-bg-img="constructive_bg_02.jpg" data-page="#tm-section-2" data-page-type="carousel">
-                                    <i class="fas fa-map tm-nav-fa-icon"></i>
+
+                                    <i class="fas fa-users tm-nav-fa-icon"></i>
                                     <span>Group Diary</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="tech.html" class="scrolly" data-bg-img="constructive_bg_03.jpg" data-page="#tm-section-3">
+                                    <i class="fas fa-map tm-nav-fa-icon"></i>
+                                    <span>Result</span>
                                 </a>
                             </li>
 
@@ -84,13 +110,21 @@
                                     <span>About</span>
                                 </a>
                             </li>
+
+                            <li>
+                                <a href="style_guide.html" class="scrolly" data-bg-img="constructive_bg_04.jpg" data-page="#tm-section-4">
+                                    <i class="fas fa-comments tm-nav-fa-icon"></i>
+                                    <span>Style Guide</span>
+                                </a>
+                            </li>
+
                         </ul>
                     </nav>
                 </div>
             </div>
         </div>
 
-        <div class="col-xl-9 col-lg-8 col-md-12 col-sm-12 tm-content">
+        <div class="col-xl-9 col-lg-10 col-md-12 col-sm-12 tm-content">
 
             <!-- section 1 -->
 
@@ -99,14 +133,14 @@
 
 
             <!-- section 3 -->
-            <section id="tm-section-2" class="tm-section tm-section-carousel">
+            <section id="tm-section-2" class="tm-section tm-section-carousel ">
 
                 <div>
                     <header class="mb-4"><h2 class="tm-text-shadow">Our Project</h2></header>
 
                         <div class="container">
                             <div class="row">
-                                <div class="col-md-6" style="min-width:120%">
+                                <div class="col-md-12" >
                                     <div class="tab" role="tabpanel">
                                         <!-- Nav tabs -->
                                         <ul class="nav nav-tabs" role="tablist">
@@ -204,49 +238,579 @@
 
                                                 </div>
                                                 </div>
-                                            <div role="tabpanel" class="tab-pane fade in  show " id="design" style="margin-top: 50px">
+                                            <div role="tabpanel" class="tab-pane fade in  show col-md-12 " id="design" style="margin-top: 50px">
 
-                                                <div class="container">
-                                                    <div class="row">
-                                                        <div class="col-md-6" style="min-width:120%">
-                                                            <div class="tab" role="tabpanel">
-                                                                <!-- Nav tabs -->
-                                                                <ul class="nav nav-tabs" role="tablist">
-                                                                    <li class="active"><a href="login.html"  >Login</a></li>
-                                                                    <li ><a href="register.html"  >Register</a></li>
-                                                                    <li ><a href="forgot.html"  >Forgot password</a></li>
-                                                                </ul>
-                                                                <!-- Tab panes -->
-                                                                <div class="tab-content tabs">
-                                                                    <div role="tabpanel" class="tab-pane fade in active show "  id="dangnhap">
+                                                <div class="accordion col-md-12" id="accordionExample" style="max-width: 110%">
 
+                                                    <!-- row1-->
+                                                    <div class="card">
+                                                        <div class="card-header" id="headingOne">
+                                                            <h5 class="mb-0">
+                                                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                                    Đăng nhập
+                                                                </button>
+                                                            </h5>
+                                                        </div>
 
-                                                                    </div>
-                                                                    <div role="tabpanel" class="tab-pane fade in  show " id="dangki">
+                                                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                                            <div class="card-body">
+                                                                <h4>Vẽ tay</h4><br><img  src="img/vetay/dangnhap.jpg" height="650" width="85%"/>
+                                                                <button class="btn-down" style="margin-top: 300px"> <i class="fas fa-cloud-download-alt"></i>  Tải về </button>
+                                                                <br>
 
-                                                                    </div>
-                                                                    <div role="tabpanel" class="tab-pane fade in  show " id="quenmatkhau">
+                                                                <h4>Vẽ Figma</h4><img src="img/figma/dangnhap.png" height="900" width="85%"/>
+                                                                <button class="btn-down" style="margin-top: 300px"> <i class="fas fa-cloud-download-alt"></i>  Tải về </button>
 
-                                                                    </div>
-                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
+                                                    <!-- row2-->
+                                                    <div class="card">
+                                                        <div class="card-header" id="headingTwo">
+                                                            <h5 class="mb-0">
+                                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                                    Đăng ký tài khoản
+                                                                </button>
+                                                            </h5>
+                                                        </div>
+                                                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                                            <div class="card-body">
+                                                                <h4>Vẽ tay</h4><br><img style="transform: rotate(90deg)" src="img/vetay/dangki.jpg" height="650" width="85%"/>
+                                                                <button class="btn-down" style="margin-top: 300px"> <i class="fas fa-cloud-download-alt"></i>  Tải về </button>
+
+                                                                <br><br>
+
+                                                                <h4>Vẽ Figma</h4><img src="img/figma/dangki.png" height="900" width="85%"/>
+                                                                <button class="btn-down" style="margin-top: 300px"> <i class="fas fa-cloud-download-alt"></i>  Tải về </button>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- row3-->
+                                                    <div class="card">
+                                                        <div class="card-header" id="headingThree">
+                                                            <h5 class="mb-0">
+                                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                                   Quên mật khẩu
+                                                                </button>
+                                                            </h5>
+                                                        </div>
+                                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                                            <div class="card-body">
+                                                                <h4>Vẽ tay</h4><br><img src="img/vetay/quenmatkhau.jpg" height="650" width="85%"/>
+                                                                <button class="btn-down" style="margin-top: 300px"> <i class="fas fa-cloud-download-alt"></i>  Tải về </button>
+
+                                                                <br> <br>
+
+                                                                <h4>Vẽ Figma</h4><img src="img/figma/quenmatkhau.png"
+                                                                                      height="900" width="85%"/>
+                                                                <button class="btn-down" style="margin-top: 300px"> <i class="fas fa-cloud-download-alt"></i>  Tải về </button>
+
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- row4-->
+                                                    <div class="card">
+                                                        <div class="card-header" id="headingFour">
+                                                            <h5 class="mb-0">
+                                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                                                    Trang chủ
+                                                                </button>
+                                                            </h5>
+                                                        </div>
+                                                        <div id="collapseFour" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                                            <div class="card-body">
+                                                                <h4>Vẽ tay</h4> <br> <img style="transform: rotate(90deg)" src="img/vetay/trangchu.jpg" height="650" width="85%"/>
+                                                                <button class="btn-down" style="margin-top: 300px"> <i class="fas fa-cloud-download-alt"></i>  Tải về </button>
+
+                                                                <br>
+
+                                                                <h4>Vẽ Figma</h4><img src="img/figma/trangchu.png"
+                                                                                      height="900" width="85%"/>
+                                                                <button class="btn-down" style="margin-top: 300px"> <i class="fas fa-cloud-download-alt"></i>  Tải về </button>
+
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- row5-->
+                                                    <div class="card">
+                                                        <div class="card-header" id="headingFive">
+                                                            <h5 class="mb-0">
+                                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                                                    Danh sách sản phẩm
+                                                                </button>
+                                                            </h5>
+                                                        </div>
+                                                        <div id="collapseFive" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                                            <div class="card-body">
+                                                                <h4>Vẽ tay</h4><br><img style="transform: rotate(90deg)" src="img/vetay/danhsachsanpham.jpg" height="650" width="85%"/>
+                                                                <button class="btn-down" style="margin-top: 300px"> <i class="fas fa-cloud-download-alt"></i>  Tải về </button>
+
+                                                                <br>
+
+                                                                <h4>Vẽ Figma</h4><img src="img/figma/danhsachsanpham.png"
+                                                                                      height="900" width="85%"/>
+                                                                <button class="btn-down" style="margin-top: 300px"> <i class="fas fa-cloud-download-alt"></i>  Tải về </button>
+
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- row6-->
+                                                    <div class="card">
+                                                        <div class="card-header" id="headingSix">
+                                                            <h5 class="mb-0">
+                                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                                                    Giỏ hàng
+                                                                </button>
+                                                            </h5>
+                                                        </div>
+                                                        <div id="collapseSix" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                                            <div class="card-body">
+                                                                <h4>Vẽ tay</h4><br><img style="transform: rotate(90deg)" src="img/vetay/giohang.jpg" height="650"
+                                                                                        width="85%"/>
+                                                                <button class="btn-down" style="margin-top: 300px"> <i class="fas fa-cloud-download-alt"></i>  Tải về </button>
+
+                                                                <br>
+
+                                                                <h4>Vẽ Figma</h4><img src="img/figma/giohang.png"
+                                                                                      height="900" width="85%"/>
+                                                                <button class="btn-down" style="margin-top: 300px"> <i class="fas fa-cloud-download-alt"></i>  Tải về </button>
+
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- row7-->
+                                                    <div class="card">
+                                                        <div class="card-header" id="headingSeven">
+                                                            <h5 class="mb-0">
+                                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                                                   Header-Footer
+                                                                </button>
+                                                            </h5>
+                                                        </div>
+                                                        <div id="collapseSeven" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                                            <div class="card-body">
+                                                                <h4>Vẽ tay</h4><br><img style="transform: rotate(90deg)" src="img/vetay/header-footer.jpg" height="650" width="85%"/>
+                                                                <button class="btn-down" style="margin-top: 300px"> <i class="fas fa-cloud-download-alt"></i>  Tải về </button>
+
+                                                                <br>
+
+                                                                <h4>Vẽ Figma</h4><img src="img/figma/header-footer.png"
+                                                                                      height="900" width="85%"/>
+                                                                <button class="btn-down" style="margin-top: 300px"> <i class="fas fa-cloud-download-alt"></i>  Tải về </button>
+
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- row8-->
+                                                    <div class="card">
+                                                        <div class="card-header" id="headingEight">
+                                                            <h5 class="mb-0">
+                                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                                                 Xem chi tiết
+                                                                </button>
+                                                            </h5>
+                                                        </div>
+                                                        <div id="collapseEight" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                                            <div class="card-body">
+                                                                <h4>Vẽ tay</h4><br><img style="transform: rotate(90deg)" src="img/vetay/chitietsanpham.jpg" height="650" width="85%"/>
+                                                                <button class="btn-down" style="margin-top: 300px"> <i class="fas fa-cloud-download-alt"></i>  Tải về </button>
+
+                                                                <br>
+
+                                                                <h4>Vẽ Figma</h4><img src="img/figma/chitietsanpham.png"
+                                                                                      height="900" width="85%"/>
+                                                                <button class="btn-down" style="margin-top: 300px"> <i class="fas fa-cloud-download-alt"></i>  Tải về </button>
+
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- row9-->
+                                                    <div class="card">
+                                                        <div class="card-header" id="headingNine">
+                                                            <h5 class="mb-0">
+                                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                                                    Phương thức thanh toán
+                                                                </button>
+                                                            </h5>
+                                                        </div>
+                                                        <div id="collapseNine" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                                            <div class="card-body">
+                                                                <h4>Vẽ tay</h4><br><img style="transform: rotate(90deg)" src="img/vetay/phuongthucthanhtoan.jpg" height="650" width="85%"/>
+                                                                <button class="btn-down" style="margin-top: 300px"> <i class="fas fa-cloud-download-alt"></i>  Tải về </button>
+
+                                                                <br>
+
+                                                                <h4>Vẽ Figma</h4><img src="img/figma/phuongthucthanhtoan.png"
+                                                                                      height="900" width="85%"/>
+                                                                <button class="btn-down" style="margin-top: 300px"> <i class="fas fa-cloud-download-alt"></i>  Tải về </button>
+
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- row10-->
+                                                    <div class="card">
+                                                        <div class="card-header" id="headingTen">
+                                                            <h5 class="mb-0">
+                                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                                                                    Thanh toán
+                                                                </button>
+                                                            </h5>
+                                                        </div>
+                                                        <div id="collapseTen" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                                            <div class="card-body">
+                                                                <h4>Vẽ tay</h4><br><img style="transform: rotate(90deg)" src="img/vetay/thanhtoan.jpg" height="650" width="85%"/>
+                                                                <button class="btn-down" style="margin-top: 300px"> <i class="fas fa-cloud-download-alt"></i>  Tải về </button>
+
+                                                                <br>
+
+                                                                <h4>Vẽ Figma</h4><img src="img/figma/thanhtoan.png"
+                                                                                      height="900" width="85%"/>
+                                                                <button class="btn-down" style="margin-top: 300px"> <i class="fas fa-cloud-download-alt"></i>  Tải về </button>
+
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- row11-->
+                                                    <div class="card">
+                                                        <div class="card-header" id="headingEleven">
+                                                            <h5 class="mb-0">
+                                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                                                                    Hướng dẫn đặt hàng
+                                                                </button>
+                                                            </h5>
+                                                        </div>
+                                                        <div id="collapseEleven" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                                            <div class="card-body">
+                                                                <h4>Vẽ tay</h4><br><img style="transform: rotate(90deg)" src="img/vetay/huongdandathang.jpg" height="650" width="85%"/>
+                                                                <button class="btn-down" style="margin-top: 300px"> <i class="fas fa-cloud-download-alt"></i>  Tải về </button>
+
+                                                                <br>
+
+                                                                <h4>Vẽ Figma</h4><img src="img/figma/huongdandathang.png"
+                                                                                      height="900" width="85%"/>
+                                                                <button class="btn-down" style="margin-top: 300px"> <i class="fas fa-cloud-download-alt"></i>  Tải về </button>
+
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- row12-->
+                                                    <div class="card">
+                                                        <div class="card-header" id="headingTwelve">
+                                                            <h5 class="mb-0">
+                                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+                                                                    Giới thiệu
+                                                                </button>
+                                                            </h5>
+                                                        </div>
+                                                        <div id="collapseTwelve" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                                            <div class="card-body">
+                                                                <h4>Vẽ tay</h4><br><img style="transform: rotate(90deg)" src="img/vetay/gioithieu.jpg" height="650" width="85%"/>
+                                                                <button class="btn-down" style="margin-top: 300px"> <i class="fas fa-cloud-download-alt"></i>  Tải về </button>
+
+                                                                <br>
+
+                                                                <h4>Vẽ Figma</h4><img src="img/figma/gioithieu.png"
+                                                                                      height="900" width="85%"/>
+                                                                <button class="btn-down" style="margin-top: 300px"> <i class="fas fa-cloud-download-alt"></i>  Tải về </button>
+
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- row13-->
+                                                    <div class="card">
+                                                        <div class="card-header" id="headingThirteen">
+                                                            <h5 class="mb-0">
+                                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
+                                                                   Chính sách đổi trả
+                                                                </button>
+                                                            </h5>
+                                                        </div>
+                                                        <div id="collapseThirteen" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                                            <div class="card-body">
+                                                                <h4>Vẽ tay</h4><br><img src="img/vetay/chinhachdoitra.jpg" height="650" width="85%"/>
+                                                                <button class="btn-down" style="margin-top: 300px"> <i class="fas fa-cloud-download-alt"></i>  Tải về </button>
+
+                                                                <br>
+
+                                                                <h4>Vẽ Figma</h4><img src="img/figma/chinhsachdoitra.png"
+                                                                                      height="900" width="85%"/>
+                                                                <button class="btn-down" style="margin-top: 300px"> <i class="fas fa-cloud-download-alt"></i>  Tải về </button>
+
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- row14-->
+                                                    <div class="card">
+                                                        <div class="card-header" id="headingFourteen">
+                                                            <h5 class="mb-0">
+                                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
+                                                                   Phương thức vận chuyển
+                                                                </button>
+                                                            </h5>
+                                                        </div>
+                                                        <div id="collapseFourteen" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                                            <div class="card-body">
+                                                                <h4>Vẽ tay</h4><br><img style="transform: rotate(90deg)" src="img/vetay/phuongthucvanchuyen.jpg" height="650" width="85%"/>
+                                                                <button class="btn-down" style="margin-top: 300px"> <i class="fas fa-cloud-download-alt"></i>  Tải về </button>
+
+                                                                <br>
+
+                                                                <h4>Vẽ Figma</h4><img src="img/figma/phuongthucvanchuyen.png"
+                                                                                      height="900" width="85%"/>
+                                                                <button class="btn-down" style="margin-top: 300px"> <i class="fas fa-cloud-download-alt"></i>  Tải về </button>
+
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- row15-->
+                                                    <div class="card">
+                                                        <div class="card-header" id="headingFifteen">
+                                                            <h5 class="mb-0">
+                                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
+                                                                    Check out
+                                                                </button>
+                                                            </h5>
+                                                        </div>
+                                                        <div id="collapseFifteen" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                                            <div class="card-body">
+                                                                <h4>Vẽ tay</h4><br><img style="transform: rotate(90deg)" src="img/vetay/checkout.jpg" height="650" width="85%"/>
+                                                                <button class="btn-down" style="margin-top: 300px"> <i class="fas fa-cloud-download-alt"></i>  Tải về </button>
+
+                                                                <br>
+
+                                                                <h4>Vẽ Figma</h4><img src="img/figma/checkout.png"
+                                                                                      height="900" width="85%"/>
+                                                                <button class="btn-down" style="margin-top: 300px"> <i class="fas fa-cloud-download-alt"></i>  Tải về </button>
+
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+<!--                                                    &lt;!&ndash; row16&ndash;&gt;-->
+<!--                                                    <div class="card">-->
+<!--                                                        <div class="card-header" id="headingSixteen">-->
+<!--                                                            <h5 class="mb-0">-->
+<!--                                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSixteen" aria-expanded="false" aria-controls="collapseSixteen">-->
+<!--                                                                    Check out-->
+<!--                                                                </button>-->
+<!--                                                            </h5>-->
+<!--                                                        </div>-->
+<!--                                                        <div id="collapseSixteen" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">-->
+<!--                                                            <div class="card-body">-->
+<!--                                                                <h5>Vẽ tay</h5>-->
+<!--                                                                <h5>Vẽ Figma</h5>-->
+<!--                                                            </div>-->
+<!--                                                        </div>-->
+<!--                                                    </div>-->
+<!--                                                    &lt;!&ndash; row17&ndash;&gt;-->
+<!--                                                    <div class="card">-->
+<!--                                                        <div class="card-header" id="headingSeventeen">-->
+<!--                                                            <h5 class="mb-0">-->
+<!--                                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeventeen" aria-expanded="false" aria-controls="collapseSeventeen">-->
+<!--                                                                    Check out-->
+<!--                                                                </button>-->
+<!--                                                            </h5>-->
+<!--                                                        </div>-->
+<!--                                                        <div id="collapseSeventeen" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">-->
+<!--                                                            <div class="card-body">-->
+<!--                                                                <h5>Vẽ tay</h5>-->
+<!--                                                                <h5>Vẽ Figma</h5>-->
+<!--                                                            </div>-->
+<!--                                                        </div>-->
+<!--                                                    </div>-->
+<!--                                                    &lt;!&ndash; row18&ndash;&gt;-->
+<!--                                                    <div class="card">-->
+<!--                                                        <div class="card-header" id="headingEightteen">-->
+<!--                                                            <h5 class="mb-0">-->
+<!--                                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEightteen" aria-expanded="false" aria-controls="collapseEightteen">-->
+<!--                                                                    Check out-->
+<!--                                                                </button>-->
+<!--                                                            </h5>-->
+<!--                                                        </div>-->
+<!--                                                        <div id="collapseEightteen" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">-->
+<!--                                                            <div class="card-body">-->
+<!--                                                                <h5>Vẽ tay</h5>-->
+<!--                                                                <h5>Vẽ Figma</h5>-->
+<!--                                                            </div>-->
+<!--                                                        </div>-->
+<!--                                                    </div>-->
+<!--                                                    &lt;!&ndash; row19&ndash;&gt;-->
+<!--                                                    <div class="card">-->
+<!--                                                        <div class="card-header" id="headingNineteen">-->
+<!--                                                            <h5 class="mb-0">-->
+<!--                                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseNineteen" aria-expanded="false" aria-controls="collapseNineteen">-->
+<!--                                                                    Check out-->
+<!--                                                                </button>-->
+<!--                                                            </h5>-->
+<!--                                                        </div>-->
+<!--                                                        <div id="collapseNineteen" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">-->
+<!--                                                            <div class="card-body">-->
+<!--                                                                <h5>Vẽ tay</h5>-->
+<!--                                                                <h5>Vẽ Figma</h5>-->
+<!--                                                            </div>-->
+<!--                                                        </div>-->
+<!--                                                    </div>-->
+<!--                                                    &lt;!&ndash; row20&ndash;&gt;-->
+<!--                                                    <div class="card">-->
+<!--                                                        <div class="card-header" id="headingTwenty">-->
+<!--                                                            <h5 class="mb-0">-->
+<!--                                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwenty" aria-expanded="false" aria-controls="collapseTwenty">-->
+<!--                                                                    Check out-->
+<!--                                                                </button>-->
+<!--                                                            </h5>-->
+<!--                                                        </div>-->
+<!--                                                        <div id="collapseTwenty" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">-->
+<!--                                                            <div class="card-body">-->
+<!--                                                                <h5>Vẽ tay</h5>-->
+<!--                                                                <h5>Vẽ Figma</h5>-->
+<!--                                                            </div>-->
+<!--                                                        </div>-->
+<!--                                                    </div>-->
+                                                    <!-- row21-->
+                                                    <div class="card">
+                                                        <div class="card-header" id="headingTwenty_one">
+                                                            <h5 class="mb-0">
+                                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwenty_one" aria-expanded="false" aria-controls="collapseTwenty_one">
+                                                                    Error
+                                                                </button>
+                                                            </h5>
+                                                        </div>
+                                                        <div id="collapseTwenty_one" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                                            <div class="card-body">
+                                                                <h4>Vẽ tay</h4><br><img src="img/vetay/error.jpg" height="650" width="85%"/>
+                                                                <button class="btn-down" style="margin-top: 300px"> <i class="fas fa-cloud-download-alt"></i>  Tải về </button>
+
+                                                                <br>
+
+                                                                <h4>Vẽ Figma</h4><img src="img/figma/error.png"
+                                                                                      height="900" width="85%"/> <button class="btn-down" style="margin-top: 300px"> <i class="fas fa-cloud-download-alt"></i>  Tải về </button>
+
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- row22-->
+                                                    <div class="card">
+                                                        <div class="card-header" id="headingTwenty_two">
+                                                            <h5 class="mb-0">
+                                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwenty_two" aria-expanded="false" aria-controls="collapseTwenty_two">
+                                                                    Quy định sử dụng
+                                                                </button>
+                                                            </h5>
+                                                        </div>
+                                                        <div id="collapseTwenty_two" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                                            <div class="card-body">
+                                                                <h4>Vẽ tay</h4><br><img style="transform: rotate(90deg)" src="img/vetay/quydinhsudung.jpg" height="650" width="85%"/>
+                                                                <button class="btn-down" style="margin-top: 300px"> <i class="fas fa-cloud-download-alt"></i>  Tải về </button>
+
+                                                                <br>
+
+                                                                <h4>Vẽ Figma</h4><img src="img/figma/quy"
+                                                                                      height="900" width="85%"/>
+                                                                <button class="btn-down" style="margin-top: 300px"> <i class="fas fa-cloud-download-alt"></i>  Tải về </button>
+
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- row23-->
+                                                    <div class="card">
+                                                        <div class="card-header" id="headingTwenty_three">
+                                                            <h5 class="mb-0">
+                                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwenty_three" aria-expanded="false" aria-controls="collapseTwenty_three">
+                                                                   Liên hệ
+                                                                </button>
+                                                            </h5>
+                                                        </div>
+                                                        <div id="collapseTwenty_three" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                                            <div class="card-body">
+                                                                <h4>Vẽ tay</h4><br><img style="transform: rotate(90deg)" src="img/vetay/lienhe.jpg" height="650" width="85%"/>
+                                                                <button class="btn-down" style="margin-top: 300px"> <i class="fas fa-cloud-download-alt"></i>  Tải về </button>
+
+                                                                <br>
+
+                                                                <h4>Vẽ Figma</h4><img src="img/figma/lienhe.png"
+                                                                                      height="900" width="85%"/>
+                                                                <button class="btn-down" style="margin-top: 300px"> <i class="fas fa-cloud-download-alt"></i>  Tải về </button>
+
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
                                                 </div>
 
-                                            </div>
-                                            <div role="tabpanel" class="tab-pane fade in  show " id="implement">
 
+                                        <div role="tabpanel" class="tab-pane fade in   show " id="implement">
+                                            <div class="accordion" id="accordionEx">
+
+                                                <!-- front end-->
+                                                <div class="card">
+                                                    <div class="card-header" id="heading_mot">
+                                                        <h5 class="mb-0">
+                                                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse_mot" aria-expanded="true" aria-controls="collapse_mot">
+                                                                #1 Front end
+
+
+                                                            </button>
+
+                                                        </h5>
+                                                    </div>
+
+                                                    <div id="collapse_mot" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionEx">
+                                                        <div class="card-body">
+
+                                                            <a class="web" target="_blank" href="https://group07-cuahangbanalbumonline.tk/"> Go to Web project</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- back end-->
+                                                <div class="card">
+                                                    <div class="card-header" id="heading_hai">
+                                                        <h5 class="mb-0">
+                                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse_hai" aria-expanded="false" aria-controls="collapse_hai">
+                                                                #2 Back end
+                                                            </button>
+                                                        </h5>
+                                                    </div>
+                                                    <div id="collapse_hai" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionEx">
+                                                        <div class="card-body">
+                                                           Đang hiện thực...
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
+
+
+
+
+
+                                        </div>
                                         </div>
                                     </div>
-                                </div>
+
+                                        </div>
+                                    </div>
+
                             </div>
                         </div>
 
 
 
-                    </div>
 
 
 
@@ -456,6 +1020,15 @@
         }
     });
 
+
+
+    $('#myCollapsible').collapse({
+        toggle: false
+    })
+
+
 </script>
+
+
 </body>
 </html>

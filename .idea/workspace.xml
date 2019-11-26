@@ -19,7 +19,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img/vetay" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -28,6 +28,13 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\WebstormProjects\GTNM_Project\hci2019group07\img\vetay" />
+      <recent name="E:\WebstormProjects\GTNM_Project\hci2019group07\img\figma" />
+      <recent name="E:\WebstormProjects\GTNM_Project\hci2019group07\img\style_guide" />
+      <recent name="E:\WebstormProjects\GTNM_Project\hci2019group07\img\gallery" />
+      <recent name="E:\WebstormProjects\GTNM_Project\hci2019group07\img\taotk" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\2102_constructive\img" />
     </key>
@@ -43,6 +50,16 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="project.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/hci2019group07/project.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.project.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -64,6 +81,12 @@
       <workItem from="1571723969604" duration="912000" />
       <workItem from="1571931308061" duration="6848000" />
       <workItem from="1572091086737" duration="1031000" />
+      <workItem from="1572967104521" duration="4961000" />
+      <workItem from="1573004642453" duration="74000" />
+      <workItem from="1573045507201" duration="1832000" />
+      <workItem from="1573572292272" duration="1929000" />
+      <workItem from="1574656009564" duration="27776000" />
+      <workItem from="1574738535551" duration="6454000" />
     </task>
     <servers />
   </component>
