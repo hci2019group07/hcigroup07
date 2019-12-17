@@ -19,7 +19,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img/vetay" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -86,7 +86,15 @@
       <workItem from="1573045507201" duration="1832000" />
       <workItem from="1573572292272" duration="1929000" />
       <workItem from="1574656009564" duration="27776000" />
-      <workItem from="1574738535551" duration="6454000" />
+      <workItem from="1574738535551" duration="6620000" />
+      <workItem from="1574746576031" duration="5283000" />
+      <workItem from="1575094942741" duration="659000" />
+      <workItem from="1575344359334" duration="597000" />
+      <workItem from="1575372591741" duration="1543000" />
+      <workItem from="1575606666806" duration="239000" />
+      <workItem from="1576243472266" duration="11227000" />
+      <workItem from="1576505618968" duration="9596000" />
+      <workItem from="1576549981887" duration="8871000" />
     </task>
     <servers />
   </component>
