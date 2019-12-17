@@ -1054,6 +1054,7 @@ button.btn-click {
     cursor: pointer;
     font-size: 15px;
     font-weight: 400;
+    height: 30px;
 }
 .btn-click:hover{
     background: #2d527d;
